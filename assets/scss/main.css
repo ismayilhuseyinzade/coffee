@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+}
+header .headerContainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noveBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  color: white;
+}
+.noveBox nav ul {
+  display: flex;
+  gap: 40px;
+}
+.noveBox nav ul li {
+  list-style-type: none;
+}
+.noveBox nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.iconBox {
+  display: flex;
+  gap: 30px;
+}
+.firstSection {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/home-1-slider-image-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.firstSection .firstContainer {
+  color: white;
+  margin-left: 350px;
+  width: 50%;
+  text-align: center;
+}
+.firstSection .firstContainer .textBox {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 50px;
+}
+.firstSection .firstContainer .textBox h1 {
+  font-size: 80px;
+}
+.firstSection .firstContainer .textBox p {
+  font-size: 20px;
+}
+.firstSection .firstContainer .textBox button {
+  color: wheat;
+  width: 200px;
+  height: 65px;
+  border: wheat solid 1px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.firstSection .firstContainer .textBox button:hover {
+  background-color: rgb(206, 151, 160);
+}
+
+.elections {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.elections .electionsText {
+  width: 50%;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+}
+.elections .electionsText h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+.elections .electionsText p {
+  font-size: 19px;
+  font-weight: 100;
+  color: #9b7f61;
+}
+.elections .electionsCarts {
+  width: 84%;
+  display: flex;
+  gap: 45px;
+}
+.elections .electionsCarts .electionsCart {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+}
+.elections .electionsCarts .electionsCart h5 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.elections .electionsCarts .electionsCart p {
+  font-size: 19px;
+  color: #9b7f61;
+}
+
+.herald {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-top: 80px;
+  padding-top: 90px;
+  background-color: #F5EBE0;
+}
+.herald .heraldText {
+  width: 50%;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+}
+.herald .heraldText h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+.herald .heraldText p {
+  font-size: 19px;
+  font-weight: 100;
+  color: #9b7f61;
+}
+.herald .heraldCarts {
+  width: 84%;
+  display: flex;
+}
+.herald .heraldCarts .heraldCart {
+  display: grid;
+  gap: 20px;
+}
+.herald .heraldCarts .heraldCart img {
+  height: auto;
+  width: 400px;
+}
+.herald .heraldCarts .heraldCart h3 {
+  font-weight: 100;
+  font-size: 20px;
+}
+.herald .heraldCarts .heraldCart h3:hover {
+  color: #BE9C79;
+}
+.herald .heraldCarts .heraldCart h3 p {
+  color: #BE9C79;
+}
+.herald .heraldCarts .heraldCart h4 {
+  font-weight: 100;
+  font-size: 13px;
+}
+.herald .heraldCarts .heraldCart h4:hover {
+  color: #BE9C79;
+}/*# sourceMappingURL=main.css.map */
